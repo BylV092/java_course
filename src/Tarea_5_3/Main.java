@@ -75,7 +75,7 @@ public class Main {
                         System.out.println("Ejecucion finalizada con exito");
                         break;
                     default:
-                        System.out.println("opcion ingresada invalida por favor ingrese una de las opciones que se muestran");
+                        System.out.println("Opcion ingresada invalida por favor ingrese una de las opciones que se muestran");
                         break;
                 }
                 System.out.println();

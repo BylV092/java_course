@@ -1,6 +1,4 @@
 package Tarea_5_2;
-
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -35,12 +33,12 @@ public class Main {
                 menor = array1[i];
             }
         }
-        System.out.println("El menor dato ingresado es " + menor);
+        System.out.println("El menor dato ingresado es: " + menor);
         for (int i =0;i < array1.length;i++){
             if (array1[i] > mayor){
                 mayor = array1[i];
             }
         }
-        System.out.println("El mayor dato ingresado es " + mayor);
+        System.out.println("El mayor dato ingresado es: " + mayor);
     }
 }

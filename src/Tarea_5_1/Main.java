@@ -10,6 +10,6 @@ public class Main {
         for (int i = 0; i < numero2 ; i++) {
             resultado += numero1;
         }
-        JOptionPane.showMessageDialog(null,"El resultado de la multiplicacion de los numeros que agregaste es : "+resultado);
+        JOptionPane.showMessageDialog(null,"El resultado de la multiplicacion de los numeros que agregaste es: "+resultado);
     }
 }
