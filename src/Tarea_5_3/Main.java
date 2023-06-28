@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);
-            int op = 0;
+            int op ;
             do {
 
                 System.out.println("ELija la operqcion aritmetica a realizar, ingresando el numero de la opcion correspondiente");
@@ -28,6 +28,7 @@ public class Main {
                         System.out.println("Ingrese el primer numero");
                         int b = scanner.nextInt();
                         int r = a + b;
+                        System.out.println("El resultado de la suma es:" + r);
                         break;
                     case 2:
                         System.out.println("Ingrese el primer numero");
@@ -35,6 +36,7 @@ public class Main {
                         System.out.println("Ingrese el primer numero");
                         int w = scanner.nextInt();
                         int re = q - w;
+                        System.out.println("El resultado de la resta es:" + re);
                         break;
                     case 3:
                         System.out.println("Ingrese el primer numero");
@@ -42,6 +44,7 @@ public class Main {
                         System.out.println("Ingrese el primer numero");
                         int t = scanner.nextInt();
                         int total = e * t;
+                        System.out.println("El resultado de la multiplicacion es:" + total);
                         break;
                     case 4:
                         System.out.println("Ingrese el primer numero");
@@ -49,6 +52,7 @@ public class Main {
                         System.out.println("Ingrese el primer numero");
                         int h = scanner.nextInt();
                         int r1 = g / h;
+                        System.out.println("El resultado de la divicion es:" + r1);
                         break;
                     case 5:
                         System.out.println("Ingrese el primer numero");
@@ -61,7 +65,7 @@ public class Main {
                         }
                         break;
                     case 6:
-                        int num1 = 0, num2 = 0;
+                        int num1, num2;
                         int resultado = 1;
                         System.out.println("Ingrese la base");
                         num1 = scanner.nextInt();
