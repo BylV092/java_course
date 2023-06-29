@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             Scanner scanner = new Scanner(System.in);
-            int op ;
+            int op;
             do {
 
                 System.out.println("ELija la operqcion aritmetica a realizar, ingresando el numero de la opcion correspondiente");

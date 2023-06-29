@@ -1,4 +1,5 @@
 package Tarea_5_2;
+
 import java.util.Scanner;
 
 public class Main {
@@ -24,18 +25,18 @@ public class Main {
         int s = scanner.nextInt();
         System.out.println("Ingrese el decimo numero");
         int d = scanner.nextInt();
-        int[] array1 ={a,b,q,w,e,r,t,y,s,d};
+        int[] array1 = {a, b, q, w, e, r, t, y, s, d};
         int menor = array1[0];
         int mayor = array1[0];
 
-        for (int i =0;i < array1.length;i++){
-            if (array1[i] < menor){
+        for (int i = 0; i < array1.length; i++) {
+            if (array1[i] < menor) {
                 menor = array1[i];
             }
         }
         System.out.println("El menor dato ingresado es: " + menor);
-        for (int i =0;i < array1.length;i++){
-            if (array1[i] > mayor){
+        for (int i = 0; i < array1.length; i++) {
+            if (array1[i] > mayor) {
                 mayor = array1[i];
             }
         }
