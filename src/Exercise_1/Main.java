@@ -1,9 +1,20 @@
 package Exercise_1;
 
+import java.util.HashMap;
+
 public class Main {
     public static void main(String[] args) {
         int[] a = new int[]{1, 1, -5, 3, -5, 7, 1, 3, 4, 3, 4,-5, 7};
-        System.out.println(search(a));
+        System.out.println(searchPro(a));
+    }
+
+    public static int searchPro(int[] a) {
+        var counts = new HashMap<Integer, Integer>();
+        for (var num : a) {
+            counts.put(num, counts.getOrDefault(num, 0) + 1);
+        }
+        System.out.println(counts);
+        return -1;
     }
 
     public static int search(int[] a) {
