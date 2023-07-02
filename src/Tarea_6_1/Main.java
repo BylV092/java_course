@@ -5,7 +5,6 @@ public class Main {
                 System.out.println("Se requieren exactamente 3 nombres como argumentos de línea de comandos.");
                 return;
             }
-
             String nombre1 = args[0];
             String nombre2 = args[1];
             String nombre3 = args[2];
