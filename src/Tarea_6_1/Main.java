@@ -1,5 +1,7 @@
 package Tarea_6_1;
 public class Main {
+    //estoy mirando como pedir los argumenros al usuario subo avance debido a que la conexion es irregular
+
         public static void main(String[] args) {
             if (args.length != 3) {
                 System.out.println("Se requieren exactamente 3 nombres como argumentos de línea de comandos.");
