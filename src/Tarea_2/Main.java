@@ -19,7 +19,7 @@ public class Main {
         String producto9= JOptionPane.showInputDialog(null,"Producto 9");
         String producto10= JOptionPane.showInputDialog(null,"Producto 10");
 
-        String producto01= JOptionPane.showInputDialog(null,"Ingrese los precios de los productos \n Solo ingrese numero sin simbolos ni puntos \n" + producto1);
+        String producto01= JOptionPane.showInputDialog(null,"Ingrese los precios de los productos l Solo ingrese numero sin simbolos ni puntos \n" + producto1);
         pd1 = Integer.parseInt(producto01);
         String producto02= JOptionPane.showInputDialog(null,producto2);
         pd2 = Integer.parseInt(producto02);
