@@ -23,7 +23,7 @@ public class Main {
             long fecha_anios = fecha_dias / (365);
             System.out.println("Desde tu nacimiento han transcurrido: \n" + fecha_anios + " años\n" + fecha_dias + " dias\n" + fecha_horas + " horas\n" + fecha_minutos + " minutos\n" + fecha_segundos + " segundos\n" + fecha_cumpleanios + " milisegundos");
         } catch (ParseException e) {
-            throw new RuntimeException(e);
+            System.err.println("ERROR: Ingresaste una fecha invalida, por favor ingresa una fecha valida");
         }
 
     }
