@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Main {
     public static void main(String[] args) {
         int[] a = new int[]{1, 1, -5, 3, -5, 7, 1, 3, 4, 3, 4,-5, 7};
-        System.out.println(searchPro(a));
+         System.out.println(searchPro(a));
     }
 
     public static int searchPro(int[] a) {
