@@ -12,7 +12,7 @@ public class people {
         this.name = name;
     }
 
-    public String getLastName() {
+    public String getLastName () {
         return lastName;
     }
 

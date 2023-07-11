@@ -10,8 +10,7 @@ public class exampePackage {
         System.out.println("p.name = " + p.getName());
         Dog d = new Dog();
         d.named = "toby";
-        d.rice = "doberman";
-
+        d.rice = "Bulldog";
         String playing = d.play(p);
         System.out.println("playing = " + playing);
         String saludo = saludar();

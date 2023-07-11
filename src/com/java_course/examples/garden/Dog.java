@@ -8,7 +8,6 @@ public class Dog {
 
     String play(people People){
         return People.lanzarPelota();
-
     }
 
 }
