@@ -25,7 +25,6 @@ public class exampleBillMain {
             System.out.print("Enter the amount of products: ");
             Bill.addItemBill(new itemBill(s.nextInt(), Product));
             System.out.println();
-
         }
         System.out.println(Bill.seeDetails());
         s.nextLine();

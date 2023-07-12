@@ -8,7 +8,6 @@ public class itemBill {
         this.amount = amount;
         this.Products = product;
     }
-
     public product getProducts() {
         return Products;
     }
