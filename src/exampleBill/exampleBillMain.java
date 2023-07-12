@@ -15,7 +15,6 @@ public class exampleBillMain {
         bill Bill = new bill(description, client);
         product Product;
         System.out.println();
-
         for (int i = 0; i < 5; i++) {
             Product = new product();
             System.out.print("Enter the new product number " + Product.getCode_id() + " :");

@@ -13,7 +13,6 @@ public class product {
     public int getCode_id() {
         return code_id;
     }
-
     public String getNameProduct() {
         return nameProduct;
     }

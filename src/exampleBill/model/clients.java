@@ -3,6 +3,7 @@ package exampleBill.model;
 public class clients {
     private String name;
     private String nit;
+
     public String getName() {
         return name;
     }

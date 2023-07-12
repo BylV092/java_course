@@ -89,6 +89,7 @@ public class bill {
                 append(this.descrption).
                 append("\n").
                 append("\n#\tName\t$\tAmount\tTotal\n");
+
         for (itemBill temp : this.item_principal) {
             if (temp == null) {
                 continue;
