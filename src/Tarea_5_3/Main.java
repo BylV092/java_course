@@ -28,7 +28,7 @@ public class Main {
                         System.out.println("Ingrese el primer numero");
                         int b = scanner.nextInt();
                         int r = a + b;
-                        System.out.println("El resultado de la suma es:" + r);
+                        System.out.println("El resultado de la add es:" + r);
                         break;
                     case 2:
                         System.out.println("Ingrese el primer numero");
