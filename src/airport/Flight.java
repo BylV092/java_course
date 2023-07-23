@@ -45,7 +45,7 @@ public class Flight implements Comparable<Flight>{
     @Override
     public String toString() {
         return "Flight details: "+
-                "\nNameFlight: " + nameFlight + '\'' +
+                "\nName Flight: " + nameFlight + '\'' +
                 "\nOrigin: " + origin + '\'' +
                 "\nDestiny: " + destiny + '\'' +
                 "\nArrive Date: " + arriveDate +

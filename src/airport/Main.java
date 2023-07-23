@@ -3,7 +3,6 @@ package airport;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -39,7 +38,7 @@ public class Main {
         Collections.sort(flightList);
 
         Flight lastFlight = flightList.get(flightList.size()-1);
-        Flight menorPassengers = Collections.min(flightList,(v1,v2)->Integer.compare(v1.getNumberPassengers(), v2.getNumberPassengers()));
+        Flight minPassengers = Collections.min(flightList,(v1, v2)->Integer.compare(v1.getNumberPassengers(), v2.getNumberPassengers()));
 
         System.out.println(" List flights: ");
         for (Flight flight: flightList){
@@ -48,5 +47,5 @@ public class Main {
         }
         System.out.println("The last flight in arrive: \n"+lastFlight+"\n");
         System.out.println("========================================================");
-        System.out.println("The flight with menor passengers is: "+menorPassengers);
+        System.out.println("The flight with menor passengers is: "+ minPassengers);
     }}
