@@ -9,7 +9,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your date of birth whit this format : yyyy-MM-dd");
         String a = scanner.nextLine();
-
         LocalDate localDateTime = LocalDate.now();
         LocalDate birthDay = LocalDate.parse(a);
         Period time = Period.between(birthDay, localDateTime);
