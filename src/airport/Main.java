@@ -11,6 +11,7 @@ public class Main {
         List<Flight> flightList = new ArrayList<>();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
         try {
+
             flightList.add(new Flight("AAL933", "New York", "Santiago", dateFormat.parse("29/08/2021 05:39"), 62));
             flightList.add(new Flight("LAT 755", "Sao pablo", "Santiago", dateFormat.parse("31/08/2021 04:45"), 47));
             flightList.add(new Flight("SKU 621", "Rio de Janeiro", "Santiago", dateFormat.parse("30/08/2021 16:00"), 52));
