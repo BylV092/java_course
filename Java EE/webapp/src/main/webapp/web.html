@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tarea 1 - Datos Personales</title>
+</head>
+<body>
+<h1>Formulario de Datos Personales</h1>
+<form action="index.html" method="get">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="apellido">Apellido:</label>
+  <input type="text" id="apellido" name="apellido" required><br><br>
+
+  <input type="submit" value="Enviar">
+</form>
+
+<p>Fecha y Hora Actual: <span id="fechaHora"></span></p>
+
+<script>
+        // JavaScript para mostrar la fecha y hora actual
+        var fechaHoraElement = document.getElementById("fechaHora");
+        var fechaHoraActual = new Date();
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        fechaHoraElement.textContent = fechaHoraActual.toLocaleDateString('es-ES', options);
+    </script>
+</body>
+</html>
